@@ -1,2 +1,36 @@
 
 /* Your CSS Code here. */
+*{
+	border-boxing:border-box;
+	padding:0px;
+	margin:0px;
+}
+.holder{
+	display:flex;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+}
+.item1{
+	width:100px;
+	height:100px;
+	background:green;
+	font-size:50px;
+}
+.item2{
+	width:100px;
+	height:100px;
+	background:blue;
+	font-size:50px;
+}
+.item3{
+	width:100px;
+	height:100px;
+	background:red;
+	font-size:50px;
+}
+.item4{
+	width:100px;
+	height:100px;
+	background:orange;
+	font-size:50px;
+}
